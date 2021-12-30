@@ -1,13 +1,13 @@
-set THISDIR="C:\JOGL"
+set THISDIR="C:\git\jogl\make"
 
-set J2RE_HOME=c:\jre-11.0.4+11_x64
-set JAVA_HOME=c:\jdk-11.0.4+11_x64
-set ANT_PATH=C:\apache-ant-1.10.5
-set GIT_PATH=C:\cygwin64\bin
+set J2RE_HOME="C:\Program%20Files\Java\jdk-16.0.2"
+set JAVA_HOME="C:\Program%20Files\Java\jdk-16.0.2"
+set ANT_PATH=C:\ant
+set GIT_PATH=C:\Program Files\Git\bin
 set SEVENZIP=C:\Program Files\7-Zip
 
-set CMAKE_PATH=C:\cmake-3.15.2-win64-x64
-set CMAKE_C_COMPILER=c:\mingw64\bin\gcc
+set CMAKE_PATH=C:\CMake
+set CMAKE_C_COMPILER=C:\cygwin64\bin\gcc.exe
 
 set PATH=%J2RE_HOME%\bin;%JAVA_HOME%\bin;%ANT_PATH%\bin;c:\mingw64\bin;%CMAKE_PATH%\bin;%GIT_PATH%;%SEVENZIP%;%PATH%
 
@@ -19,7 +19,7 @@ REM    -Dsetup.addNativeKD=true
 
 set SOURCE_LEVEL=1.8
 set TARGET_LEVEL=1.8
-set TARGET_RT_JAR=C:\jre1.8.0_212\lib\rt.jar
+set TARGET_RT_JAR=C:\jre1.8.0_301\lib\rt.jar
 
 REM set JOGAMP_JAR_CODEBASE=Codebase: *.jogamp.org
 set JOGAMP_JAR_CODEBASE=Codebase: *.goethel.localnet
